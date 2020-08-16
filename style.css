@@ -1,0 +1,163 @@
+body {
+  background-color: #fff;
+  /* background-image: url(https://media.giphy.com/media/1rPY8XIGWozEhm215a/giphy.gif); */
+  background-image: url(https://media.giphy.com/media/jVc1vUq8dM1NPPjzCi/giphy.gif);
+
+}
+
+hr {
+  border: dotted 16px;
+  border-top: none;
+  width: 20%;
+  color: #dbdbdb;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f9f7d9;
+  /* background: linear-gradient(to right,#f9f7d9,#fa26a0,#1d1b38); */
+  background: linear-gradient(to left, #7d5e2a, #42240c);
+  border-radius: 18%;
+}
+
+nav a {
+  text-decoration: none;
+  /* color: #fdd365; */
+  color: white;
+  text-shadow: 1px 1px #000;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  border-radius: 25%;
+}
+
+ul li:hover {
+  background: #523906;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li ul {
+  position: absolute;
+  width: 159px;
+  display: none;
+}
+
+ul li ul li {
+  background: #d3de32;
+  border-style: solid;
+  border-radius: 20%;
+  /* border-color: #810000; */
+  border-color: #535204;
+  display: block;
+}
+
+ul li ul li:hover {
+  background: #799351;
+  transform: translateY(4px);
+}
+
+/* .company{
+
+   position: absolute;
+   top: 32%;
+   left: 35%;
+   width: 28%;
+} */
+.topSection {
+  padding-top: 4%;
+  font-style: italic;
+  font-size: 150%;
+  text-shadow: 2px 2px #faf0af;
+  text-align: center;
+  border-radius: 7%;
+  /* background-color: #f9f7d9; */
+}
+
+.spinach {
+  width: 16%;
+}
+
+.listOfMenu {
+  padding-top: 4%;
+  font-style: italic;
+  font-size: 150%;
+  /* text-align: center; */
+  border-radius: 7%;
+  background-color: #f9f7d9;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuzrkgkpSr08NXV6blkh4clfz20E--L5csYA&usqp=CAU); */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsverw4GRONxxr9ldxoBvDVY_alsSnQJRDFw&usqp=CAU);
+}
+
+.submitButton {
+  border-radius: 15%;
+  background-color: #d3de32;
+  box-shadow: 0 5px #999;
+}
+
+.submitButton:hover {
+  background-color: #3e8e41;
+}
+
+.submitButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Menu {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  margin: 3% 3%;
+  background-color: #f9f7d9;
+  border-width: thick;
+  border-style: groove;
+  border-color: black;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuzrkgkpSr08NXV6blkh4clfz20E--L5csYA&usqp=CAU); */
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsverw4GRONxxr9ldxoBvDVY_alsSnQJRDFw&usqp=CAU); */
+  border-radius: 37%;
+  padding: 4%;
+}
+
+#serviceSection {
+  padding: 5%;
+  /* background-color:  #f9f7d9; */
+  border-radius: 17%;
+}
+
+.freeDelivery {
+  margin: 4%;
+  display: inline-block;
+}
+
+.map {
+  font-size: 50px;
+  text-shadow: 2px 2px #faf0af;
+  margin: 4%;
+  display: inline-block;
+}
+
+footer {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuzrkgkpSr08NXV6blkh4clfz20E--L5csYA&usqp=CAU);
+  padding: 4%;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  color: white;
+  font-size: 200%;
+  border-radius: 10%;
+}
